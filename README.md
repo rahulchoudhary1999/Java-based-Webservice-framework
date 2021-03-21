@@ -35,7 +35,7 @@ Note : the folder-name mention here should exists inside tomcat9/Webapps/"projec
 
 the above example show how to write folder-name in which services classes are located (services classes are classes using the framework to create web service for requests).
 
-User also have to change a single word inside web.xml, instead of 'schoolService' user have to write his/her application entity name there.
+User also have to change a single word inside web.xml, instead of 'service' user have to write his/her application entity name there.
 ```
 <servlet>
 <servlet-name>TMWebRock</servlet-name>
@@ -46,7 +46,7 @@ User also have to change a single word inside web.xml, instead of 'schoolService
 <url-pattern>/service/*</url-pattern>
 </servlet-mapping>
 ```
-In above piece of code user have to make change only in line number 7. i.e. replace 'schoolService' with other word.
+In above piece of code user have to make change only in line number 7. i.e. replace 'service' with other word.
 
 Now you can forget about web.xml as you dont have to change or configure it again.
 
